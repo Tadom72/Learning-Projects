@@ -1,0 +1,108 @@
+/* CSS STYLE SHEET*/
+
+/*Genral style for every page*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    /*background: #7399df; Alternative colour scheme*/
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    /*background: white;*/
+    /*background: #a3bae6; Alternative colour scheme*/
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+/*header*/
+.header {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+}
+
+.header h2 {
+    margin: 0;
+    color: #333;
+}
+
+.nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/*Styling for the forms*/
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #888;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+button, .btn {
+    background-color: #2d6cdf;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover, .btn:hover {
+    background-color: #1c4ca8;
+}
+
+/*styling for the Tables*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th {
+    background: #ddd;
+    padding: 8px;
+    border: 1px solid #999;
+    text-align: left;
+}
+
+table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+
+/*Footer*/
+.footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 2px solid #333;
+    color: #555;
+}
+
+/*main menu logo style*/
+.logo{
+    text-align: center;
+    color: #6c80e9;
+
+}
